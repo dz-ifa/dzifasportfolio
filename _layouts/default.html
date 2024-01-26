@@ -7,12 +7,8 @@ layout: compress
   {% include head.html %}
   <body>
       {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-      <section id="projects">
-        {% include projects.html %}
-      </section>
-        {{ content }}
+            <section class="content">
+                {{ content }}
+            </section>
       {% include footer.html %}
   </body>
